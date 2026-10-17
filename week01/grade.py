@@ -10,13 +10,25 @@ while True:
         print("학생 목록 : ")
 
         for name, s in score.items():
-            print(f"이름 : {name} / {s}점")
+
+            if s >= 90:
+                grade = "A"
+            elif s >= 80:
+                grade = "B"
+            elif s >= 70:
+                grade = "C"
+            elif s >= 60:
+                grade = "D"
+            else:
+                grade = "F"
+
+            print(f"이름 : {name} / {s}점 / {grade}등급")
 
         average = sum(score.values()) / len(score)
         max_num = max(score.values())
         min_num = min(score.values())
         print()
-        print("전체평균", average)
+        print("전체평균 : ", average)
         print("최고점수 : ", max_num)
         print("최저점수 : ", min_num)
         print()
