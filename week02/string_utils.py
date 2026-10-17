@@ -3,7 +3,15 @@ def space_delete (word):
 
 def check_mail(email):
     email = email.strip()
-    return ("@" in email) and ("." in email)
+    if email.count("@") != 1:
+        return False
+
+    id, domain = email.split("@")
+
+    if not id or not domain or "." not in domain:
+        return False
+
+    return True
 
 def masking_mail(email):
     if not check_mail(email):
