@@ -1,0 +1,15 @@
+user1@naver.com
+kim.hs@gmail.com
+invalid_email_string
+lee_test@daum.net
+missing_at_domain.com
+park99@naver.com
+wrong_format.com
+choi@company.co.kr
+@noid.com
+hong_gd@gmail.com
+bad@@double_at.com
+lee@hanmail.net
+just_text_data
+admin@system.or.kr
+test.user@

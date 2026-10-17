@@ -1,0 +1,65 @@
+{
+    "summary": {
+        "total_pass": 8,
+        "total_fail": 7,
+        "domain_count": {
+            "naver.com": 2,
+            "gmail.com": 2,
+            "daum.net": 1,
+            "company.co.kr": 1,
+            "hanmail.net": 1,
+            "system.or.kr": 1
+        }
+    },
+    "pass_email": [
+        {
+            "email": "user1@naver.com",
+            "id": "user1",
+            "domain": "naver.com"
+        },
+        {
+            "email": "kim.hs@gmail.com",
+            "id": "kim.hs",
+            "domain": "gmail.com"
+        },
+        {
+            "email": "lee_test@daum.net",
+            "id": "lee_test",
+            "domain": "daum.net"
+        },
+        {
+            "email": "park99@naver.com",
+            "id": "park99",
+            "domain": "naver.com"
+        },
+        {
+            "email": "choi@company.co.kr",
+            "id": "choi",
+            "domain": "company.co.kr"
+        },
+        {
+            "email": "hong_gd@gmail.com",
+            "id": "hong_gd",
+            "domain": "gmail.com"
+        },
+        {
+            "email": "lee@hanmail.net",
+            "id": "lee",
+            "domain": "hanmail.net"
+        },
+        {
+            "email": "admin@system.or.kr",
+            "id": "admin",
+            "domain": "system.or.kr"
+        }
+    ],
+    "fail_email": [
+        "invalid_email_string",
+        "missing_at_domain.com",
+        "wrong_format.com",
+        "@noid.com",
+        "bad@@double_at.com",
+        "just_text_data",
+        "test.user@"
+    ]
+}

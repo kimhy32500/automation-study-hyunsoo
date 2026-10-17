@@ -1,0 +1,17 @@
+2026-10-15 test_login_valid_user PASS
+2026-10-15 test_login_wrong_password FAIL
+2026-10-15 broken_data_only_one_word
+2026-10-15 test_signup_new_account PASS
+2026-10-15 test_signup_duplicate_id INVALID_STATUS
+2026-10-16 test_profile_nickname_change PASS
+2026-10-16 test_profile_image_upload FAIL
+2026-10-16   
+2026-10-16 test_password_reset_request PASS
+2026-10-16 test_item_search_keyword PASS
+2026-10-16 missing_result_field 2026-10-16
+2026-10-16 test_item_filter_category PASS
+2026-10-16 test_cart_add_item PASS
+2026-10-16 test_cart_remove_item FAIL
+2026-10-16 test_checkout_process PASS
+2026-10-16 test_payment_gateway_timeout FAIL
+2026-10-16 test_logout_session_clear PASS
