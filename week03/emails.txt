@@ -13,3 +13,5 @@ lee@hanmail.net
 just_text_data
 admin@system.or.kr
 test.user@
+ test d@x.com
+ e@x..com

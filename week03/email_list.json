@@ -1,7 +1,7 @@
 {
     "summary": {
         "total_pass": 8,
-        "total_fail": 7,
+        "total_fail": 9,
         "domain_count": {
             "naver.com": 2,
             "gmail.com": 2,
@@ -60,6 +60,8 @@
         "@noid.com",
         "bad@@double_at.com",
         "just_text_data",
-        "test.user@"
+        "test.user@",
+        " test d@x.com",
+        " e@x..com"
     ]
 }
