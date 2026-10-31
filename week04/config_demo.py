@@ -7,9 +7,9 @@ def load_config():
     load_dotenv(base_dir / ".env")
 
     config = {
-        "login_id": os.getenv("LOGIN_ID"),
-        "login_pwd": os.getenv("LOGIN_PASSWORD"),
-        "base_url": os.getenv("BASE_URL")
+        "LOGIN_ID": os.getenv("LOGIN_ID"),
+        "LOGIN_PASSWORD": os.getenv("LOGIN_PASSWORD"),
+        "BASE_URL": os.getenv("BASE_URL")
     }
 
     return config
@@ -25,17 +25,17 @@ def validate_config(config):
 
 def print_config(config):
     print("환경설정 정보")
-    print(f"로그인 ID: {config['login_id']}")
+    print(f"로그인 ID: {config['LOGIN_ID']}")
 
-    login_pwd = config['login_pwd']
+    login_pwd = config['LOGIN_PASSWORD']
 
-    if len(login_pwd) > 1:
+    if login_pwd and len(login_pwd) > 1:
         masked_pwd = login_pwd[0] + "*" * (len(login_pwd) - 1)
     else:
         masked_pwd = "*"
 
     print(f"비밀번호: {masked_pwd}")
-    print(f"기본 URL: {config['base_url']}")
+    print(f"기본 URL: {config['BASE_URL']}")
 
 def main():
     try:
