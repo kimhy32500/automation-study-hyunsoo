@@ -1,0 +1,30 @@
+{
+    "summary": {
+        "total_test": 13,
+        "total_pass": 9,
+        "total_fail": 4,
+        "pass_rate": "69.23%"
+    },
+    "fail_test": [
+        {
+            "date": "2026-10-15",
+            "test_name": "test_login_wrong_password",
+            "log": "2026-10-15 test_login_wrong_password FAIL"
+        },
+        {
+            "date": "2026-10-16",
+            "test_name": "test_profile_image_upload",
+            "log": "2026-10-16 test_profile_image_upload FAIL"
+        },
+        {
+            "date": "2026-10-16",
+            "test_name": "test_cart_remove_item",
+            "log": "2026-10-16 test_cart_remove_item FAIL"
+        },
+        {
+            "date": "2026-10-16",
+            "test_name": "test_payment_gateway_timeout",
+            "log": "2026-10-16 test_payment_gateway_timeout FAIL"
+        }
+    ]
+}
