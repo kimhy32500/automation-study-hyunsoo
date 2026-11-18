@@ -53,7 +53,7 @@ python -m pip freeze > requirements.txt
 - 각 테스트 함수에서 해당 변수를 참조하여 사용 중
 
 ## 8. 문의사항
-코드 실행 시
+pytest 실행 시
 
 ======================================================================================================== warnings summary =========================================================================================================
 qmit-test/test_main.py::test_메인_페이지_타이틀[chromium]
@@ -64,4 +64,5 @@ qmit-test/test_main.py::test_메인_페이지_타이틀[chromium]
   See https://docs.pytest.org/en/stable/deprecations.html#class-scoped-fixture-as-instance-method
     fixturefunc = resolve_fixture_function(fixturedef, request)
 
-위 내용의 warnings summary가 출력되는데 신경쓰지 않아도 되는건가요?
+1. 위 내용의 warnings summary가 출력되는데 신경쓰지 않아도 되는건가요?
+2. WebKit는 window 환경에서 실행이 안되는데 따로 실행 방법이 있는지건가요?
